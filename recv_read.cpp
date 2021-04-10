@@ -6,7 +6,7 @@ void read()
     ifstream fin;
     string line;
     // Open an existing file
-    fin.open("Book1.csv");
+    fin.open("scores.csv");
      while(!fin.eof()){
                 fin>>line;
             cout<<line<<" ";
